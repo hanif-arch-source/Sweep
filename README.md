@@ -5,9 +5,9 @@ is connected to: Wi-Fi status, signal strength, upload/download traffic,
 discovered local devices, and alerts for important network events.
 
 Built with **Kotlin + Jetpack Compose + MVVM**, following the architecture
-and design in `Sweep_Network_Monitoring_App_Project_Document.docx`.
+and design in `Sweep_Project_Document.docx`.
 
-## What's implemented (MVP, Section 16 of the spec)
+## What's implemented
 
 - Wi-Fi/network status (connected/disconnected, SSID, local IP, gateway)
 - Signal strength (dBm + 4-bar indicator) and link speed
@@ -62,7 +62,7 @@ document.
    (**minSdk 26 / Android 8.0+**).
 
 > The project doc recommends testing on a real device rather than relying
-> entirely on the emulator (Section 15) — local network scanning behaves
+> entirely on the emulator  — local network scanning behaves
 > more realistically on real Wi-Fi.
 
 ## Permissions
@@ -79,7 +79,7 @@ If a permission is denied, Sweep degrades gracefully (e.g. SSID or scan
 results may be unavailable) rather than crashing — see Section 14 of the
 project document.
 
-## Known limitations (by design — see Section 3 of the spec)
+## Known limitations 
 
 - Sweep is a **device-side** monitor, not a router admin replacement. It
   cannot see other devices' bandwidth usage — only their presence via
@@ -92,7 +92,7 @@ project document.
   (MAC-prefix → vendor) lookup is called out as a future enhancement in
   Section 17 of the spec, not part of the MVP.
 
-## Suggested next steps (Section 17 — Future Enhancements)
+## Suggested next steps 
 
 - Router integration for network-wide traffic stats
 - Historical/daily/weekly traffic charts
