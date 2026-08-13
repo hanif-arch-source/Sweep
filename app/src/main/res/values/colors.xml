@@ -1,0 +1,16 @@
+<resources>
+    <!-- Sweep brand palette: white background, red accent -->
+    <color name="sweep_red">#E53935</color>
+    <color name="sweep_red_dark">#B71C1C</color>
+    <color name="sweep_red_light">#FFCDD2</color>
+
+    <color name="sweep_white">#FFFFFF</color>
+    <color name="sweep_surface">#FAFAFA</color>
+    <color name="sweep_surface_variant">#F1F1F1</color>
+
+    <color name="sweep_charcoal">#1C1C1E</color>
+    <color name="sweep_charcoal_muted">#6E6E73</color>
+
+    <color name="sweep_online_green">#2E7D32</color>
+    <color name="sweep_border">#E5E5E5</color>
+</resources>

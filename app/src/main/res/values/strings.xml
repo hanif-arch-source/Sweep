@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Sweep</string>
+    <string name="tagline">Android Network Monitoring</string>
+
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_devices">Devices</string>
+    <string name="nav_alerts">Alerts</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="dashboard_connected">CONNECTED</string>
+    <string name="dashboard_disconnected">DISCONNECTED</string>
+    <string name="dashboard_signal_strength">Signal Strength</string>
+    <string name="dashboard_link_speed">Link Speed</string>
+    <string name="dashboard_local_ip">Local IP</string>
+    <string name="dashboard_traffic_header">Network Traffic</string>
+    <string name="dashboard_download">Download</string>
+    <string name="dashboard_upload">Upload</string>
+    <string name="dashboard_devices_found">%1$d devices found</string>
+    <string name="action_scan_network">Scan Network</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_scanning">Scanning…</string>
+
+    <string name="devices_title">Devices</string>
+    <string name="devices_empty">No devices discovered yet. Run a scan from the Dashboard.</string>
+    <string name="device_status_online">Online</string>
+    <string name="device_status_offline">Offline</string>
+    <string name="device_last_seen">Last seen %1$s</string>
+
+    <string name="alerts_title">Alerts</string>
+    <string name="alerts_empty">No alerts yet. Sweep will notify you when something changes on your network.</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_auto_update">Automatic updates</string>
+    <string name="settings_auto_update_desc">Keep monitoring information refreshed automatically</string>
+    <string name="settings_interval">Monitoring interval</string>
+    <string name="settings_auto_scan">Automatic scanning</string>
+    <string name="settings_auto_scan_desc">Scan the network automatically on each refresh cycle</string>
+    <string name="settings_alert_thresholds">Alert thresholds</string>
+    <string name="settings_weak_signal_threshold">Weak signal threshold (dBm)</string>
+    <string name="settings_high_traffic_threshold">High traffic threshold (Mbps)</string>
+    <string name="settings_notifications">Notification preferences</string>
+    <string name="settings_notify_new_device">Notify on new device</string>
+    <string name="settings_notify_disconnect">Notify on disconnect</string>
+    <string name="settings_notify_weak_signal">Notify on weak signal</string>
+    <string name="settings_notify_high_traffic">Notify on high traffic</string>
+
+    <string name="notification_channel_name">Sweep Alerts</string>
+    <string name="notification_channel_desc">Network events detected by Sweep</string>
+</resources>
